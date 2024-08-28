@@ -39,7 +39,7 @@ def main():
     query = "Which number is bigger: 9.11 or 9.9?"
     response = get_chat_completion(query)
     full_response = process_streamed_response(response)
-    print("\n\nFull response:", full_response)
+    print()
 
 if __name__ == "__main__":
     main()
